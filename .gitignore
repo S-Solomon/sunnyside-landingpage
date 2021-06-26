@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Avoid naccidental upload of the sketch and figma design files
+
+*.sketch
+*.fig
