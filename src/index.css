@@ -75,6 +75,11 @@ body {
     flex-direction: column;
 }
 
+/* Testimonials */
+.testimonials-header {
+    color: var(--Very-dark-grayish-blue);
+}
+
 @media (min-width: 768px) {
     .showcase {
         background: url("./images/desktop/image-header.jpg") no-repeat center/cover;

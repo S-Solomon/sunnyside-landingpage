@@ -4,6 +4,7 @@ import Transform from './components/Transform' ;
 import StandOut from './components/StandOut' ;
 import GraphicMobile from './components/GraphicMobile';
 import GraphicDesktop from './components/GraphicDesktop';
+import Testimonials from './components/Testimonials' ;
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <div className="hidden md:block">
           <GraphicDesktop />
         </div>
+        <Testimonials />
     </>
   )
 }
