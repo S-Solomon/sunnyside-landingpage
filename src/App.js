@@ -1,8 +1,15 @@
+import Header from './components/Header' ;
+import Showcase from './components/Showcase' ;
+import Transform from './components/Transform' ;
 
-function App() {
+const App = () => {
   return (
-    <h1>sunny side</h1>
-  );
+    <>
+        <Header />
+        <Showcase />
+        <Transform />
+    </>
+  )
 }
 
-export default App;
+export default App

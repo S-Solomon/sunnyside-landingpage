@@ -34,6 +34,7 @@ img {
 
 p {
     line-height: 1.6;
+    font-size: 18px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -42,4 +43,24 @@ h1,h2,h3,h4,h5,h6 {
 
 body {
     font-family: "Barlow", sans-serif;
+}
+
+/* showcase */
+
+.showcase {
+    background: url("./images/mobile/image-header.jpg") no-repeat center/cover;
+}
+
+.showcase .overlay {
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .showcase {
+        background: url("./images/desktop/image-header.jpg") no-repeat center/cover;
+    }
 }
