@@ -1,18 +1,18 @@
-import {useState} from 'react' ;
-import {graphicMobile} from '../data/graphic' ;
+import { useState } from 'react' ;
+import { graphicMobile } from '../data/graphic' ;
 
 const GraphicMobile = () => {
     // eslint-disable-next-line
-    const [cards, setCards] = useState(graphicMobile);
+    const [ cards, setCards ] = useState(graphicMobile);
 
     return (
         <>
-            <section>
+            <section className="graphic">
                 {cards.map(({id, image, title, text}) => (
-                    <article key={id}>
+                    <article key={id} className ="relative">
                         <img src={image} alt={title} />
-                        <div>
-                            <h3>{title}</h3>
+                        <div className="absolute bottom-5 left-0 text-center">
+                            <h3 className="text-xl mb-5">{title}</h3>
                             <p>{text}</p>
                         </div>
                     </article>
