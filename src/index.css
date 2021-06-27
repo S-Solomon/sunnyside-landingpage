@@ -35,14 +35,23 @@ img {
 p {
     line-height: 1.6;
     font-size: 18px;
+    color: var(--Very-dark-grayish-blue);
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: "Fraunces", sans-serif;
+    color: var(--Very-dark-desaturated-blue);
 }
 
 body {
     font-family: "Barlow", sans-serif;
+}
+
+/* Buttons */
+.btn-transform {
+    border-bottom: 6px solid var(--Yellow);
+    text-transform: uppercase;
+    color: var(--Very-dark-desaturated-blue);
 }
 
 /* showcase */

@@ -12,9 +12,9 @@ const Transform = () => {
                     </picture>
                 </div>
 
-                <div>
-                    <h2>Transform your brand</h2>
-                    <p>
+                <div className="px-5 text-center">
+                    <h2 className="text-2xl my-5">Transform your brand</h2>
+                    <p className="mb-5">
                         We are a full-service creative agency specializing in helping
                         brands grow fast. Engage your clients through compelling visuals
                         that do the most of the marketing for you.
