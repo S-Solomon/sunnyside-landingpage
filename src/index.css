@@ -80,6 +80,22 @@ body {
     color: var(--Very-dark-grayish-blue);
 }
 
+/* footer */
+.footer {
+    background-color: var(--Dark-moderate-cyan);
+}
+.footer ul {
+    cursor: pointer;
+}
+.footer ul li {
+    color: var(--Dark-desaturated-cyan);
+}
+.footer ul li:hover {
+    color: var(--White);
+}
+
+
+
 @media (min-width: 768px) {
     .showcase {
         background: url("./images/desktop/image-header.jpg") no-repeat center/cover;

@@ -34,7 +34,7 @@ export const gridDesktop =[
     },
     {
         id: 4,
-        image: './images/desktop/image-gallery-sugar-cubes.jpg',
+        image: './images/desktop/image-gallery-sugarcubes.jpg',
     },
 
 ]
