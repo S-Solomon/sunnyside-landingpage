@@ -2,6 +2,7 @@ import Header from './components/Header' ;
 import Showcase from './components/Showcase' ;
 import Transform from './components/Transform' ;
 import StandOut from './components/StandOut' ;
+import GraphicMobile from './components/GraphicMobile';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Showcase />
         <Transform />
         <StandOut />
+        <GraphicMobile />
     </>
   )
 }
