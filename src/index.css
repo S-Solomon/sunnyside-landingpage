@@ -48,6 +48,22 @@ body {
 }
 
 /* Buttons */
+.btn-cta {
+    font-family: "Fraunces", sans-serif;
+    background-color: var(--White);
+    color: var(--very-dark-desaturated-blue);
+    border: 2px solid var(--White);
+    padding: 10px;
+    border-radius: 30px;
+    transition: background-color 0.4s ease-in-out;
+}
+.btn-cta:hover {
+    cursor: pointer;
+    background-color: var(--Dark-desaturated-cyan);
+    color: var(--White);
+    border: 2px solid var(--Dark-desaturated-cyan);
+}
+
 .btn-transform {
     border-bottom: 6px solid var(--Yellow);
     text-transform: uppercase;
@@ -61,10 +77,19 @@ body {
     font-family: "Fraunces", sans-serif;
 }
 
+
+/* Navbar */
+.navbar {
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+}
+
 /* showcase */
 
 .showcase {
     background: url("./images/mobile/image-header.jpg") no-repeat center/cover;
+    height: 512px;              
 }
 
 .showcase .overlay {
@@ -97,6 +122,11 @@ body {
 
 
 @media (min-width: 768px) {
+    .navbar {
+        right: 0;
+        top: 0;
+    }
+
     .showcase {
         background: url("./images/desktop/image-header.jpg") no-repeat center/cover;
     }
